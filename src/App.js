@@ -37,7 +37,9 @@ function App() {
               <Route exact path="/" element={<Home showAlert={showAlert} />}>
                
               </Route>
-             
+              <Route exact path="/iNotebook" element={<Home showAlert={showAlert} />}>
+               
+               </Route>
               <Route exact path="/about" element={<About />}>
             
               </Route>

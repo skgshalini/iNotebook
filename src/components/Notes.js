@@ -10,7 +10,9 @@ const Notes = (props) => {
     const { notes, getNotes, editNote } = context;
     useEffect(() => {
         if(localStorage.getItem('token'))
-        getNotes()
+       { getNotes()
+          console.log("here")
+       }
         else{
             history("/login")
         }
